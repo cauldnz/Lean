@@ -170,7 +170,7 @@ class Cape(PythonData):
     def Reader(self, config, line, date, isLiveMode):
         if not (line.strip() and line[0].isdigit()): return None
     
-        # New Nifty object
+        # New CAPE object
         index = Cape()
         index.Symbol = config.Symbol
     
